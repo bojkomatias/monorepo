@@ -1,0 +1,17 @@
+{
+  "extends": "tsconfig/vite.json",
+  "compilerOptions": {
+    "jsxImportSource": "@builder.io/qwik",
+    "outDir": "tmp",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "files": [
+    "./.eslintrc.cjs",
+    "./tailwind.config.js",
+    "./postcss.config.js",
+    "./vite.config.ts"
+  ],
+  "include": ["src"]
+}
